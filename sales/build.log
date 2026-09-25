@@ -1,0 +1,47 @@
+
+> sales-landing@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\sumit\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\package-lock.json
+
+▲ Next.js 16.1.1 (Turbopack)
+
+  Creating an optimized production build ...
+Error: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at onInvalidCandidate (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\tailwindcss\dist\lib.js:21:1314)]
+    [at Te (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\tailwindcss\dist\lib.js:16:36652)]
+    [at C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\tailwindcss\dist\lib.js:21:355]
+    [at Rr (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\tailwindcss\dist\lib.js:3:1718)]
+    [at _ (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\tailwindcss\dist\lib.js:3:1377)]
+    [at $e (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\tailwindcss\dist\lib.js:21:172)]
+    [at un (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\tailwindcss\dist\lib.js:38:294)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async cn (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\tailwindcss\dist\lib.js:38:631)]
+    [at async Xr (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\@tailwindcss\node\dist\index.js:10:3417)]
+
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./Sumit-Personal/ERP/SalesLanding/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\src\app\globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    at Input.error (Sumit-Personal/ERP/SalesLanding/node_modules/postcss/lib/input.js:135:16) [C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\.next\build\chunks\fd2f3_d450ae5f._.js:4651:22]
+    at Root.error (Sumit-Personal/ERP/SalesLanding/node_modules/postcss/lib/node.js:146:32) [C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\.next\build\chunks\fd2f3_d450ae5f._.js:928:38]
+    [at Object.Once (C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    at async LazyResult.runAsync (Sumit-Personal/ERP/SalesLanding/node_modules/postcss/lib/lazy-result.js:293:11) [C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\.next\build\chunks\fd2f3_d450ae5f._.js:6206:21]
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\.next\build\chunks\[root-of-the-server]__102425e7._.js:146:36]
+    at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23) [C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\.next\build\chunks\[root-of-the-server]__ebb0ad01._.js:443:31]
+
+Import trace:
+  Client Component Browser:
+    ./Sumit-Personal/ERP/SalesLanding/src/app/globals.css [Client Component Browser]
+    ./Sumit-Personal/ERP/SalesLanding/src/app/layout.tsx [Server Component]
+
+
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\.next\build\chunks\[root-of-the-server]__102425e7._.js:146:36])
+    at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23) [C:\Users\sumit\Sumit-Personal\ERP\SalesLanding\.next\build\chunks\[root-of-the-server]__ebb0ad01._.js:443:31])

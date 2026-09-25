@@ -1,0 +1,440 @@
+--------- beginning of main
+12-30 16:37:18.077 17926 17926 E Parcel  : Attempt to read from protected data in Parcel 0x7fc1408bb0
+12-30 16:37:18.078 17926 17926 E Parcel  : Attempt to read from protected data in Parcel 0x7fc1408bb0
+12-30 16:37:18.078 17926 17926 E Parcel  : Attempt to read from protected data in Parcel 0x7fc1408bb0
+12-30 16:37:18.078 17926 17926 E Parcel  : Attempt to read from protected data in Parcel 0x7fc1408bb0
+12-30 16:37:18.078 17926 17926 E Parcel  : Attempt to read from protected data in Parcel 0x7fc1408bb0
+12-30 16:37:18.794  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:20.980  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:21.171 17941 17941 E d.configupdater: Unknown bits set in runtime_flags: 0x40000000
+12-30 16:37:21.388  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:21.398  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 2,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10482,pkg_cmd = -1,rpc = FROZEN_TRANS_THREAD/1
+12-30 16:37:22.460  4349  4349 E ModemAciService: CatchException oemModemAci2OplusModemAci():java.lang.IndexOutOfBoundsException: Index 55 out of bounds for length 55
+12-30 16:37:22.461  4349  4349 E ModemAciService: sendSettleObj2Statsd over!
+12-30 16:37:23.573 22582 23063 E Finsky  : [20173] in.upstox.app is not installed.
+12-30 16:37:23.574 22582 23063 E Finsky  : [20173] com.NetmedsMarketplace.Netmeds is not installed.
+12-30 16:37:23.576 22582 23063 E Finsky  : [20173] in.ndhm.phr is not installed.
+12-30 16:37:23.577 22582 23063 E Finsky  : [20173] com.naviapp is not installed.
+12-30 16:37:23.577 22582 23063 E Finsky  : [20173] com.arj.mastii is not installed.
+12-30 16:37:23.577 22582 23063 E Finsky  : [20173] me.gira.widget.countdown is not installed.
+12-30 16:37:23.577 22582 23063 E Finsky  : [20173] in.swiggy.android is not installed.
+12-30 16:37:23.578 22582 23063 E Finsky  : [20173] com.app.smytten is not installed.
+12-30 16:37:23.578 22582 23063 E Finsky  : [20173] com.deepseek.chat is not installed.
+12-30 16:37:23.578 22582 23063 E Finsky  : [20173] com.spring.tiles.matching is not installed.
+12-30 16:37:23.583 22582 23063 E Finsky  : [20173] com.madmantragames.kamla is not installed.
+12-30 16:37:23.585 22582 23063 E Finsky  : [20173] com.dashtoon.video.reels is not installed.
+12-30 16:37:23.586 22582 23063 E Finsky  : [20173] com.ril.shein is not installed.
+12-30 16:37:23.586 22582 23063 E Finsky  : [20173] com.vlv.aravali.reels is not installed.
+12-30 16:37:23.586 22582 23063 E Finsky  : [20173] xyz.penpencil.physicswala is not installed.
+12-30 16:37:23.586 22582 23063 E Finsky  : [20173] com.project.rbxproject is not installed.
+12-30 16:37:23.586 22582 23063 E Finsky  : [20173] tkstudio.autoresponderforwa is not installed.
+12-30 16:37:23.587 22582 23063 E Finsky  : [20173] com.done.faasos is not installed.
+12-30 16:37:23.587 22582 23063 E Finsky  : [20173] com.mobikwik_new is not installed.
+12-30 16:37:23.587 22582 23063 E Finsky  : [20173] com.bigwinepot.nwdn.international is not installed.
+12-30 16:37:23.587 22582 23063 E Finsky  : [20173] money.jupiter is not installed.
+12-30 16:37:23.587 22582 23063 E Finsky  : [20173] com.nixgames.reaction is not installed.
+12-30 16:37:23.587 22582 23063 E Finsky  : [20173] advanced.scientific.calculator.calc991.plus is not installed.
+12-30 16:37:23.624 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 3703
+12-30 16:37:24.300 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.301 22582 23063 E Finsky  : [20173] AU2: RequiredInteractivityState is missing.
+12-30 16:37:24.301 22582 23063 E Finsky  : [20173] AU2: RequiredBatteryLevel is missing.
+12-30 16:37:24.301 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.301 22582 23063 E Finsky  : [20173] AU2: RequiredInteractivityState is missing.
+12-30 16:37:24.306 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.306 22582 23063 E Finsky  : [20173] AU2: RequiredInteractivityState is missing.
+12-30 16:37:24.306 22582 23063 E Finsky  : [20173] AU2: RequiredBatteryLevel is missing.
+12-30 16:37:24.306 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.308 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.308 22582 23063 E Finsky  : [20173] AU2: RequiredInteractivityState is missing.
+12-30 16:37:24.308 22582 23063 E Finsky  : [20173] AU2: RequiredBatteryLevel is missing.
+12-30 16:37:24.308 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.309 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.309 22582 23063 E Finsky  : [20173] AU2: RequiredBatteryLevel is missing.
+12-30 16:37:24.310 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.312 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.312 22582 23063 E Finsky  : [20173] AU2: RequiredInteractivityState is missing.
+12-30 16:37:24.312 22582 23063 E Finsky  : [20173] AU2: RequiredBatteryLevel is missing.
+12-30 16:37:24.312 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.313 22582 23063 E Finsky  : [20173] AU2: RequiredInteractivityState is missing.
+12-30 16:37:24.313 22582 23063 E Finsky  : [20173] AU2: RequiredBatteryLevel is missing.
+12-30 16:37:24.316 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.316 22582 23063 E Finsky  : [20173] AU2: RequiredInteractivityState is missing.
+12-30 16:37:24.316 22582 23063 E Finsky  : [20173] AU2: RequiredBatteryLevel is missing.
+12-30 16:37:24.317 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.317 22582 23063 E Finsky  : [20173] AU2: RequiredBatteryLevel is missing.
+12-30 16:37:24.318 22582 23063 E Finsky  : [20173] AU2: RequiredVehicleState is missing.
+12-30 16:37:24.729 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:24.940  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:24.941  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:24.965 14044 14044 E Parcel  : Attempt to read from protected data in Parcel 0xb400007c2e223500
+12-30 16:37:24.965 14044 14044 E Parcel  : Attempt to read from protected data in Parcel 0xb400007c2e223500
+12-30 16:37:24.965 14044 14044 E Parcel  : Attempt to read from protected data in Parcel 0xb400007c2e223500
+12-30 16:37:24.965 14044 14044 E Parcel  : Attempt to read from protected data in Parcel 0xb400007c2e223500
+12-30 16:37:24.973 22582 22621 E Parcel  : Attempt to read from protected data in Parcel 0xb400007b75fb6880
+12-30 16:37:24.973 22582 22621 E Parcel  : Attempt to read from protected data in Parcel 0xb400007b75fb6880
+12-30 16:37:24.973 22582 22621 E Parcel  : Attempt to read from protected data in Parcel 0xb400007b75fb6880
+12-30 16:37:24.973 22582 22621 E Parcel  : Attempt to read from protected data in Parcel 0xb400007b75fb6880
+12-30 16:37:25.000 22582 23063 E Finsky  : [20173] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:25.020 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:25.079 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:25.120 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:25.225 22582 23041 E Finsky  : [20164] [Counters] attempted to use a non-positive increment for: 5969
+12-30 16:37:25.275 22582 23063 E Finsky  : [20173] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:25.283 22582 23041 E Finsky  : [20164] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:25.285 22582 23041 E Finsky  : [20164] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:25.327 22582 23041 E Finsky  : [20164] [Counters] attempted to use a non-positive increment for: 4753
+12-30 16:37:25.340 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:25.347 22582 23063 E Finsky  : [20173] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:25.348 22582 23041 E Finsky  : [20164] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:25.372 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:25.388  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/io_percent not supported
+12-30 16:37:25.388  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 2]
+12-30 16:37:25.388  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/sample_ms not supported
+12-30 16:37:25.388  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 8]
+12-30 16:37:25.388  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/min_freq not supported
+12-30 16:37:25.388  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 0]
+12-30 16:37:25.394 22582 23063 E Finsky  : [20173] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:25.404 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:25.409  1408  1672 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+12-30 16:37:25.410  1408  1672 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+12-30 16:37:25.467  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/io_percent not supported
+12-30 16:37:25.467  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 2]
+12-30 16:37:25.467  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/sample_ms not supported
+12-30 16:37:25.467  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 8]
+12-30 16:37:25.467  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource SPECIAL_NODE - cpubw_hwmon_hyst_opt not supported
+12-30 16:37:25.467  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 3]
+12-30 16:37:25.467  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/min_freq not supported
+12-30 16:37:25.467  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 0]
+12-30 16:37:25.468  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/max_freq not supported
+12-30 16:37:25.468  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 6]
+12-30 16:37:25.494 22582 22922 E Finsky  : [20161] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:25.504 22582 23041 E Finsky  : [20164] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:25.519  3639  3744 E IPCThreadState: attemptIncStrongHandle(242): Not supported
+12-30 16:37:25.534  1408  1672 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+12-30 16:37:25.582 16138 16138 E com.sikhsha.app: Unknown bits set in runtime_flags: 0x40000000
+12-30 16:37:25.693  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 22720,target_uid = 10263,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.693  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.693  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.693  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.693  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.693  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.700  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.700  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.701  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.701  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.701  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.704  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.705  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.705  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.705  1408  1672 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+12-30 16:37:25.705  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.706  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.714  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.715  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.715  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.715  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 10726,target_uid = 10035,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14848,target_uid = 10279,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.718  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:25.775  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/io_percent not supported
+12-30 16:37:25.775  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 2]
+12-30 16:37:25.775  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/sample_ms not supported
+12-30 16:37:25.775  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 8]
+12-30 16:37:25.775  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource SPECIAL_NODE - cpubw_hwmon_hyst_opt not supported
+12-30 16:37:25.775  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 3]
+12-30 16:37:25.775  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/min_freq not supported
+12-30 16:37:25.775  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 0]
+12-30 16:37:25.776  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/max_freq not supported
+12-30 16:37:25.776  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 6]
+--------- beginning of system
+12-30 16:37:25.777  2897  2971 E OplusThermalStats: Error getting package info: com.sikhsha.app
+12-30 16:37:25.854  2897  3300 E Athena  : MemoryGuardAction: handleAppChange
+--------- beginning of crash
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: FATAL EXCEPTION: main
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: Process: com.sikhsha.app, PID: 16138
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application com.sikhsha.app.MainApplication package com.sikhsha.app: java.lang.ClassNotFoundException: Didn't find class "com.sikhsha.app.MainApplication" on path: DexPathList[[zip file "/data/app/~~pCSxVnocJyTfz4v9-rVUsQ==/com.sikhsha.app-ha68yS2mlzmLhngdphEkUA==/base.apk"],nativeLibraryDirectories=[/data/app/~~pCSxVnocJyTfz4v9-rVUsQ==/com.sikhsha.app-ha68yS2mlzmLhngdphEkUA==/lib/arm64, /data/app/~~pCSxVnocJyTfz4v9-rVUsQ==/com.sikhsha.app-ha68yS2mlzmLhngdphEkUA==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1520)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1444)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7183)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2284)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:240)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:351)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8377)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:584)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.sikhsha.app.MainApplication" on path: DexPathList[[zip file "/data/app/~~pCSxVnocJyTfz4v9-rVUsQ==/com.sikhsha.app-ha68yS2mlzmLhngdphEkUA==/base.apk"],nativeLibraryDirectories=[/data/app/~~pCSxVnocJyTfz4v9-rVUsQ==/com.sikhsha.app-ha68yS2mlzmLhngdphEkUA==/lib/arm64, /data/app/~~pCSxVnocJyTfz4v9-rVUsQ==/com.sikhsha.app-ha68yS2mlzmLhngdphEkUA==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateApplication(AppComponentFactory.java:76)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateApplication(CoreComponentFactory.java:51)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1251)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1512)
+12-30 16:37:25.924 16138 16138 E AndroidRuntime: 	... 11 more
+12-30 16:37:25.960  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/io_percent not supported
+12-30 16:37:25.960  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 2]
+12-30 16:37:25.960  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/sample_ms not supported
+12-30 16:37:25.960  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 8]
+12-30 16:37:25.960  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource SPECIAL_NODE - cpubw_hwmon_hyst_opt not supported
+12-30 16:37:25.960  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 3]
+12-30 16:37:25.960  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/min_freq not supported
+12-30 16:37:25.960  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 0]
+12-30 16:37:25.961  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/max_freq not supported
+12-30 16:37:25.961  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 6]
+12-30 16:37:25.964  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/io_percent not supported
+12-30 16:37:25.964  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 2]
+12-30 16:37:25.964  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/sample_ms not supported
+12-30 16:37:25.964  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 8]
+12-30 16:37:25.964  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/min_freq not supported
+12-30 16:37:25.964  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 0]
+12-30 16:37:25.966  2897  2971 E OplusThermalStats: Error getting package info: com.android.launcher
+12-30 16:37:26.185  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 9449,target_uid = 10552,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.186  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 13668,target_uid = 10356,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.186  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 13942,target_uid = 10276,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.186  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 14927,target_uid = 10080,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.186  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 15186,target_uid = 10258,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.190  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 1022,target_uid = 10135,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.190  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 10258,target_uid = 10112,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.190  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 12221,target_uid = 10345,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.190  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 13928,target_uid = 10275,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.190  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 14886,target_uid = 10543,pkg_cmd = -1,rpc = android.app.IApplicationThread/31
+12-30 16:37:26.210  2897 20857 E ANDR-PERF-JNI: UXEngine Trigger - Returning null
+12-30 16:37:26.313  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:26.343  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 10258,target_uid = 10112,pkg_cmd = -1,rpc = android.app.IApplicationThread/14
+12-30 16:37:26.343  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 10258,target_uid = 10112,pkg_cmd = -1,rpc = android.app.IApplicationThread/14
+12-30 16:37:26.473  2897  3300 E Athena  : MemoryGuardAction: handleAppChange
+12-30 16:37:26.500  2897  7007 E WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+12-30 16:37:26.567 15473 15473 E _Arouter: invoke error:com.oplus.uxdesign.externalscreen.ExternalScreenApplication.onTrimMemory [int]
+12-30 16:37:26.568  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/io_percent not supported
+12-30 16:37:26.568  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 2]
+12-30 16:37:26.568  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/sample_ms not supported
+12-30 16:37:26.568  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 8]
+12-30 16:37:26.568  1408  1671 E ANDR-PERF-OPTSHANDLER: Perflock resource /sys/class/devfreq/soc:qcom,cpubw/min_freq not supported
+12-30 16:37:26.568  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [6, 0]
+12-30 16:37:26.586  1408  6314 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+12-30 16:37:26.586  1408  6314 E ANDR-PERF-LM: AdaptiveLaunch: writeToDataBase() 64: Meter aborted or could not get meter data for this run
+12-30 16:37:26.633 15473 15473 E _Arouter: invoke error:com.oplus.theme.OplusThemeApplication.onTrimMemory [int]
+12-30 16:37:26.637  1408  6313 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+12-30 16:37:26.688 15473 15473 E _Arouter: invoke error:com.oplus.uxdesign.uxcolor.UxColorApplication.onTrimMemory [int]
+12-30 16:37:26.688 15473 15473 E _Arouter: invoke error:com.oplus.uxdesign.language.LanguageApplication.onTrimMemory [int]
+12-30 16:37:26.689 15473 15473 E _Arouter: invoke error:com.oplus.uxdesign.personal.PersonalApplication.onTrimMemory [int]
+12-30 16:37:26.689 15473 15473 E _Arouter: invoke error:com.oplus.uxdesign.icon.IconStyleApplication.onTrimMemory [int]
+12-30 16:37:26.963 22582 23061 E Finsky  : [20171] [Counters] attempted to use a non-positive increment for: 4751
+12-30 16:37:27.274  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10263,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:27.436  1395  7808 E sensors-hal: ssc_conn_event_cb:661, event[0] msg_id=1025, ts=14831167402763 sensor_type = pedometer_minute  Wakeup
+12-30 16:37:27.437  1395  7808 E sensors-hal: handle_sns_client_event:83, pedometer_minute: report_ts=12761,counter=420.000000 move_status =[SNS_CMC_STATIONARY] time_gap = 0 run_counter=0.000000 walk_counter=97.000000
+12-30 16:37:27.441  2897  3347 E AppOps  : attributionTag  not declared in manifest of com.oplus.exsystemservice
+12-30 16:37:27.441  2897  3347 E AppOps  : attributionTag  not declared in manifest of com.oplus.exsystemservice
+12-30 16:37:27.596  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:27.705  1408  1671 E ANDR-PERF-UTIL: Failed to update node /proc/16138/sched_boost with value 0
+12-30 16:37:27.705  1408  1671 E ANDR-PERF-OPTSHANDLER: can't reset task 16138
+12-30 16:37:27.705  1408  1671 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [3, 32]
+12-30 16:37:27.966  3607  3822 E ActivityThread: Failed to find provider info for com.oplus.thirdkit
+12-30 16:37:27.967  3607  3822 E AbnormalAppMonitorController: callProvider errorUnknown authority com.oplus.thirdkit
+12-30 16:37:28.482 22582 23063 E Finsky  : [20173] ItemStore: getItems RPC failed for item com.oplus.wirelesssettings
+12-30 16:37:28.483 22582 22922 E Finsky  : [20161] ItemStore: getItems RPC failed for item android
+12-30 16:37:28.483 22582 23063 E Finsky  : [20173] ItemStore: getItems RPC failed for item com.android.systemui
+12-30 16:37:28.484 22582 22922 E Finsky  : [20161] ItemStore: getItems RPC failed for item com.android.vpndialogs
+12-30 16:37:28.484 22582 23061 E Finsky  : [20171] ItemStore: getItems RPC failed for item com.android.launcher
+12-30 16:37:28.485 22582 23304 E Finsky  : [20202] Failed getting com.android.launcher
+12-30 16:37:28.485 22582 23304 E Finsky  : network time: 0, HTTP status code: na, exception com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item com.android.launcher
+12-30 16:37:28.485 22582 23304 E Finsky  : 	at abwp.a(PG:167)
+12-30 16:37:28.485 22582 23304 E Finsky  : 	at bizj.d(PG:3)
+12-30 16:37:28.485 22582 23304 E Finsky  : 	at bizl.run(PG:38)
+12-30 16:37:28.485 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+12-30 16:37:28.485 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+12-30 16:37:28.485 22582 23304 E Finsky  : 	at uqu.run(PG:612)
+12-30 16:37:28.485 22582 23304 E Finsky  : 	at java.lang.Thread.run(Thread.java:1563)
+12-30 16:37:28.485 22582 23304 E Finsky  : Caused by: com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item com.android.launcher
+12-30 16:37:28.485 22582 23304 E Finsky  : 	... 7 more
+12-30 16:37:28.486 22582 23304 E Finsky  : [20202] Failed getting com.oplus.wirelesssettings
+12-30 16:37:28.486 22582 23304 E Finsky  : network time: 0, HTTP status code: na, exception com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item com.oplus.wirelesssettings
+12-30 16:37:28.486 22582 23304 E Finsky  : 	at abwp.a(PG:167)
+12-30 16:37:28.486 22582 23304 E Finsky  : 	at bizj.d(PG:3)
+12-30 16:37:28.486 22582 23304 E Finsky  : 	at bizl.run(PG:38)
+12-30 16:37:28.486 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+12-30 16:37:28.486 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+12-30 16:37:28.486 22582 23304 E Finsky  : 	at uqu.run(PG:612)
+12-30 16:37:28.486 22582 23304 E Finsky  : 	at java.lang.Thread.run(Thread.java:1563)
+12-30 16:37:28.486 22582 23304 E Finsky  : Caused by: com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item com.oplus.wirelesssettings
+12-30 16:37:28.486 22582 23304 E Finsky  : 	... 7 more
+12-30 16:37:28.487 22582 23304 E Finsky  : [20202] Failed getting android
+12-30 16:37:28.487 22582 23304 E Finsky  : network time: 0, HTTP status code: na, exception com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item android
+12-30 16:37:28.487 22582 23304 E Finsky  : 	at abwp.a(PG:167)
+12-30 16:37:28.487 22582 23304 E Finsky  : 	at bizj.d(PG:3)
+12-30 16:37:28.487 22582 23304 E Finsky  : 	at bizl.run(PG:38)
+12-30 16:37:28.487 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+12-30 16:37:28.487 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+12-30 16:37:28.487 22582 23304 E Finsky  : 	at uqu.run(PG:612)
+12-30 16:37:28.487 22582 23304 E Finsky  : 	at java.lang.Thread.run(Thread.java:1563)
+12-30 16:37:28.487 22582 23304 E Finsky  : Caused by: com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item android
+12-30 16:37:28.487 22582 23304 E Finsky  : 	... 7 more
+12-30 16:37:28.488 22582 23304 E Finsky  : [20202] Failed getting com.android.vpndialogs
+12-30 16:37:28.488 22582 23304 E Finsky  : network time: 0, HTTP status code: na, exception com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item com.android.vpndialogs
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at abwp.a(PG:167)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at bizj.d(PG:3)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at bizl.run(PG:38)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at uqu.run(PG:612)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at java.lang.Thread.run(Thread.java:1563)
+12-30 16:37:28.488 22582 23304 E Finsky  : Caused by: com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item com.android.vpndialogs
+12-30 16:37:28.488 22582 23304 E Finsky  : 	... 7 more
+12-30 16:37:28.488 22582 23304 E Finsky  : [20202] Failed getting com.android.systemui
+12-30 16:37:28.488 22582 23304 E Finsky  : network time: 0, HTTP status code: na, exception com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item com.android.systemui
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at abwp.a(PG:167)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at bizj.d(PG:3)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at bizl.run(PG:38)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at uqu.run(PG:612)
+12-30 16:37:28.488 22582 23304 E Finsky  : 	at java.lang.Thread.run(Thread.java:1563)
+12-30 16:37:28.488 22582 23304 E Finsky  : Caused by: com.google.android.finsky.networkrequests.NetworkRequestException: ItemStore: getItems RPC failed for item com.android.systemui
+12-30 16:37:28.488 22582 23304 E Finsky  : 	... 7 more
+12-30 16:37:28.664  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10276,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:28.939  8012  8608 E PowerMonitor: Failed to get powermonitor hal service
+12-30 16:37:28.939  8012  8608 E PowerMonitor: java.util.NoSuchElementException
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at android.os.HwBinder.getService(Native Method)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at android.os.HwBinder.getService(HwBinder.java:81)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at vendor.oplus.hardware.power.powermonitor.V1_0.IPowerMonitor.getService(IPowerMonitor.java:74)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at vendor.oplus.hardware.power.powermonitor.V1_0.IPowerMonitor.getService(IPowerMonitor.java:84)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at android.os.OplusPowerMonitor.getPowerMonitorService(OplusPowerMonitor.java:44)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at android.os.OplusPowerMonitor.getAtdTask(OplusPowerMonitor.java:119)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at java.lang.reflect.Method.invoke(Native Method)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at v4.a.g(ProcessCpuManager.java:106)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at v4.a.e(ProcessCpuManager.java:1)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at v4.a$a.handleMessage(ProcessCpuManager.java:11)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at android.os.Looper.loopOnce(Looper.java:240)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at android.os.Looper.loop(Looper.java:351)
+12-30 16:37:28.939  8012  8608 E PowerMonitor: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-30 16:37:28.957  2897  8909 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+12-30 16:37:31.340  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:31.516  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; CpuFgTime = 0 ms; CpuBgTime = 0 ms.
+12-30 16:37:31.516  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; CpuKernelFgTime = 0 ms; CpuKernelBgTime = 0 ms.
+12-30 16:37:31.516  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; CpuUserFgTime = 0 ms ; CpuUserBgTime = 0 ms.
+12-30 16:37:31.516  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; CpuFgPower = 0.0 mAh.; CpuBgPower = 0.0 mAh.
+12-30 16:37:31.516  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; AlarmFgWakeupCount = 0; AlarmBgWakeupCount = 0
+12-30 16:37:31.516  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; JobFgCount = 0; JobBgCount = 0; JobFgTime = 0; JobBgTime = 0
+12-30 16:37:31.516  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; SyncFgCount = 0; SyncBgCount = 0; SyncFgTime = 0; SyncBgTime = 0
+12-30 16:37:31.516  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; WakeLockFgTime = 0 ms; WakeLockFgPower = 0.0 mAh.; WakeLockBgTime = 0 ms; WakeLockBgPower = 0.0 mAh.
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; ScreenFgTime = 27231679 ms; ScreenFgPower = 667.1761355000001 mAh.
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgWifiRxBytes = 0 Bytes; BgWifiRxBytes = 0 Bytes; FgWifiTxBytes = 0 Bytes; BgWifiTxBytes = 0 Bytes; FgWifiRxPackets = 0 ; BgWifiRxPackets = 0 ; FgWifiTxPackets = 0 ; BgWifiTxPackets = 0 ; FgWiFiScanTimeMs = 0 ; BgWiFiScanTimeMs = 0 ; FgWiFiBatchScanTimeMs = 0 ; BgWiFiBatchScanTimeMs = 0 
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgWifiRxPacketsPower = 0.0 mAh; BgWifiRxPacketsPower = 0.0 mAh; FgWifiTxPacketsPower = 0.0 mAh; BgWifiTxPacketsPower = 0.0 mAh; FgWifiScanPower = 0.0 mAh; BgWifiScanPower = 0.0 mAh; FgWifiBatchScanPower = 0.0 mAh; BgWifiBatchScanPower = 0.0 mAh; FgWiFiTotalPower = 0.0 mAh; BgWiFiTotalPower = 0.0 mAh.
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgGpsTime = 0 ms; BgGpsTime = 0 ms.
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgGpsPower = 0.0 mAh; BgGpsPower = 0.0 mAh.
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgSensorTime = 0 ms; BgSensorTime = 0 ms.
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgSensorPower = 0.0 mAh; BgSensorPower = 0.0 mAh.
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgCameraTime = 0 ms; BgCameraTime = 0 ms
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgCameraPower = 0.0 mAh; BgCameraPower = 0.0 mAh
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgFlashLightTime = 0 ms; BgFlashLightTime = 0 ms
+12-30 16:37:31.517  8012  8778 E Battery : AppStats: Uid = 10128; pkgName = com.sikhsha.app; FgFlashLightPower = 0.0 mAh; BgFlashLightPower = 0.0 mAh
+12-30 16:37:31.548  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10482,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:32.435  4467  4777 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: Invalid subId
+12-30 16:37:32.442  4467 30249 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: Invalid subId
+12-30 16:37:32.447  4467 30249 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: Invalid subId
+12-30 16:37:32.453  4467 30249 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: Invalid subId
+12-30 16:37:33.425  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 22720,target_uid = 10263,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:33.425  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 1914,caller_uid = 1047,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.hardware.ICameraServiceListener/5
+12-30 16:37:34.222  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10356,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:34.943  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10035,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:35.032  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10035,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:35.765  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:36.209  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:37.677  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 13668,target_uid = 10356,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:37.678  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 13668,target_uid = 10356,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:37.678  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 14927,target_uid = 10080,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:37.678  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 14927,target_uid = 10080,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:37.678  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 1022,target_uid = 10135,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:37.678  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 1022,target_uid = 10135,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:37.678  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 1022,target_uid = 10135,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:37.761  4467 27018 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPrivilegeStatusForUid: Invalid subId
+12-30 16:37:40.543 22582 23308 E Finsky  : [20204] Timeout getting PackageStats
+12-30 16:37:40.543 22582 23308 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@d938e8[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.545 22582 18000 E Finsky  : [20560] Timeout getting PackageStats
+12-30 16:37:40.545 22582 18000 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@7441b01[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.571 22582 23304 E Finsky  : [20202] Timeout getting PackageStats
+12-30 16:37:40.571 22582 23304 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@d7cfb94[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.574 22582 17999 E Finsky  : [20559] Timeout getting PackageStats
+12-30 16:37:40.574 22582 17999 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@71e4e32[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.575 22582 23304 E Finsky  : [20202] Timeout getting PackageStats
+12-30 16:37:40.575 22582 23304 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@9f83d00[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.575 22582 18000 E Finsky  : [20560] Timeout getting PackageStats
+12-30 16:37:40.575 22582 18000 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@f482939[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.577 22582 17996 E Finsky  : [20556] Timeout getting PackageStats
+12-30 16:37:40.577 22582 17996 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@424292c[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.581 22582 23308 E Finsky  : [20204] Timeout getting PackageStats
+12-30 16:37:40.581 22582 23308 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@d4d718a[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.582 22582 17996 E Finsky  : [20556] Timeout getting PackageStats
+12-30 16:37:40.582 22582 17996 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@c40ac18[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.583 22582 23304 E Finsky  : [20202] Timeout getting PackageStats
+12-30 16:37:40.583 22582 23304 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@9191c56[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.588 22582 17998 E Finsky  : [20558] Timeout getting PackageStats
+12-30 16:37:40.588 22582 17998 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@4a071c4[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.588 22582 23304 E Finsky  : [20202] Timeout getting PackageStats
+12-30 16:37:40.588 22582 23304 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@c9258ad[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.591 22582 17996 E Finsky  : [20556] Timeout getting PackageStats
+12-30 16:37:40.591 22582 17996 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@14e630[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.591 22582 17997 E Finsky  : [20557] Timeout getting PackageStats
+12-30 16:37:40.591 22582 17997 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@947602e[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.592 22582 23305 E Finsky  : [20203] Timeout getting PackageStats
+12-30 16:37:40.592 22582 23305 E Finsky  : com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: jfl@b1a355c[status=PENDING, info=[tag=[Waiting on calls to getPackageStorageStats]]]
+12-30 16:37:40.753  2897  3434 E OplusArpPeer_euclid_psw: ARP read failure: android.system.ErrnoException: read failed: EAGAIN (Try again)
+12-30 16:37:40.755  2897  3434 E OplusArpPeer_euclid_psw:  OplusArpPeer close
+12-30 16:37:41.323  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:42.744  5033  5046 E horae   : 0: back:32830,frame:32260,front:31376, 3, +(3876), 1 ,27200,36706,33677,33260,34472
+12-30 16:37:43.662  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10279,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:43.705  4467  4777 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPrivilegeStatusForUid: Invalid subId
+12-30 16:37:43.707  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 22720,target_uid = 10263,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:43.707  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 22720,target_uid = 10263,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:43.707  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 22720,target_uid = 10263,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:43.726  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 22720,target_uid = 10263,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:43.727  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 13568,target_uid = 10215,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:43.727  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:43.727  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 14471,target_uid = 10264,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:43.727  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 0,port = 86870,caller_pid = 2897,caller_uid = 1000,target_pid = 15429,target_uid = 10482,pkg_cmd = -1,rpc = android.os.IMessenger/1
+12-30 16:37:44.584  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10276,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:45.100  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10482,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:46.186  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:48.088 18243 18243 E Parcel  : Attempt to read from protected data in Parcel 0x7fc6c9dbf0
+12-30 16:37:48.088 18243 18243 E Parcel  : Attempt to read from protected data in Parcel 0x7fc6c9dbf0
+12-30 16:37:48.088 18243 18243 E Parcel  : Attempt to read from protected data in Parcel 0x7fc6c9dbf0
+12-30 16:37:48.088 18243 18243 E Parcel  : Attempt to read from protected data in Parcel 0x7fc6c9dbf0
+12-30 16:37:48.088 18243 18243 E Parcel  : Attempt to read from protected data in Parcel 0x7fc6c9dbf0
+12-30 16:37:51.310  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:51.452  7144  7145 E IHansComunication: HANS printMessageBody: RCV message: type = 4,port = 86870,caller_pid = -1,caller_uid = -1,target_pid = -1,target_uid = 10264,pkg_cmd = -1,rpc = PKG/-1
+12-30 16:37:51.887  7860  7860 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+12-30 16:37:51.928  1395  1395 E sensors-hal: deactivate:200, stop monitor lcd info
+12-30 16:37:51.931  2925  2928 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+12-30 16:37:51.934  2925  2928 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"

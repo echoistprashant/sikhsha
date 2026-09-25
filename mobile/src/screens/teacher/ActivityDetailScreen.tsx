@@ -1,0 +1,414 @@
+import React, { useEffect, useState } from 'react';
+import {
+    View,
+    Text,
+    StyleSheet,
+    ScrollView,
+    TouchableOpacity,
+    ActivityIndicator,
+    Alert,
+} from 'react-native';
+import { useNavigation, useRoute } from '@react-navigation/native';
+import type { RouteProp } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { TeacherStackParamList } from '../../navigation/TeacherNavigator';
+import GlassScreen from '../../components/GlassScreen';
+import GlassCard from '../../components/GlassCard';
+import { useAuth } from '../../context/AuthContext';
+import { getActivityById, deleteActivity } from '../../api/teacherApi';
+import type { ActivityDetail } from '../../api/teacherApi';
+import { logger } from '../../utils/logger';
+import Toast from 'react-native-toast-message';
+import RNFS from 'react-native-fs';
+import { generatePDF, sharePDF } from '../../utils/pdfService';
+
+type ActivityDetailRouteProp = RouteProp<TeacherStackParamList, 'ActivityDetail'>;
+
+const ActivityDetailScreen: React.FC = () => {
+    const route = useRoute<ActivityDetailRouteProp>();
+    const navigation = useNavigation<NativeStackNavigationProp<TeacherStackParamList>>();
+    const { token } = useAuth();
+    const { activityId } = route.params;
+
+    const [activity, setActivity] = useState<ActivityDetail | null>(null);
+    const [loading, setLoading] = useState(true);
+    const [savingPDF, setSavingPDF] = useState(false);
+    const [error, setError] = useState<string | null>(null);
+
+    // Helper to parse JSON fields safely
+    const parseJsonField = (field: any): string[] => {
+        if (typeof field === 'string') {
+            try {
+                return JSON.parse(field);
+            } catch (e) {
+                return [];
+            }
+        }
+        return Array.isArray(field) ? field : [];
+    };
+
+    useEffect(() => {
+        if (!token || !activityId) {
+            return;
+        }
+
+        let cancelled = false;
+
+        const fetchActivity = async () => {
+            setLoading(true);
+            setError(null);
+            try {
+                const data = await getActivityById(token, activityId);
+                if (!cancelled) {
+                    setActivity(data);
+                }
+            } catch (err: any) {
+                if (!cancelled) {
+                    setError(err.message || 'Failed to load activity');
+                    logger.error('Failed to fetch activity', { activityId, error: err.message });
+                }
+            } finally {
+                if (!cancelled) {
+                    setLoading(false);
+                }
+            }
+        };
+
+        fetchActivity();
+
+        return () => {
+            cancelled = true;
+        };
+    }, [token, activityId]);
+
+    const handleSavePDF = async () => {
+        if (!activity) return;
+
+        setSavingPDF(true);
+        try {
+            const materialsList = parseJsonField(activity.materials).map(m => `<li>${m}</li>`).join('');
+            const stepsList = parseJsonField(activity.steps).map(s => `<li>${s}</li>`).join('');
+            const outcomesList = parseJsonField(activity.learning_outcomes).map(o => `<li>${o}</li>`).join('');
+
+            const html = `
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Helvetica, sans-serif; padding: 40px; color: #333; }
+                        h1 { color: #a855f7; text-align: center; border-bottom: 2px solid #a855f7; padding-bottom: 10px; }
+                        .meta { text-align: center; color: #666; margin-bottom: 30px; }
+                        h2 { color: #a855f7; margin-top: 30px; border-left: 4px solid #a855f7; padding-left: 10px; }
+                        ul { line-height: 1.6; }
+                        li { margin-bottom: 8px; }
+                        .footer { margin-top: 50px; text-align: center; font-size: 12px; color: #999; border-top: 1px solid #ddd; padding-top: 20px; }
+                    </style>
+                </head>
+                <body>
+                    <h1>${activity.title}</h1>
+                    <div class="meta">
+                        <p><strong>Subject:</strong> ${activity.subject} • <strong>Type:</strong> ${activity.activity_type}</p>
+                        <p><strong>Duration:</strong> ${activity.duration} minutes</p>
+                    </div>
+
+                    <h2>Materials Needed</h2>
+                    <ul>${materialsList || '<li>No specific materials required</li>'}</ul>
+
+                    <h2>Instructions</h2>
+                    <ol>${stepsList || '<li>No instructions provided</li>'}</ol>
+
+                    <h2>Learning Outcomes</h2>
+                    <ul>${outcomesList || '<li>No specific outcomes listed</li>'}</ul>
+
+                    <div class="footer">
+                        Generated by Sikhsha AI Teacher Assistant
+                    </div>
+                </body>
+                </html>
+            `;
+
+            const fileName = `Activity_${activity.title.replace(/[^a-z0-9]/gi, '_')}`;
+            const filePath = await generatePDF({ html, fileName });
+
+            if (filePath) {
+                await sharePDF(filePath, fileName);
+                Toast.show({
+                    type: 'success',
+                    text1: 'PDF Ready',
+                    text2: 'Sharing Activity PDF...',
+                });
+            }
+        } catch (err: any) {
+            logger.error('Failed to generate PDF', { error: err.message });
+            Toast.show({
+                type: 'error',
+                text1: 'PDF Error',
+                text2: err.message || 'Failed to generate PDF',
+            });
+        } finally {
+            setSavingPDF(false);
+        }
+    };
+
+    const handleDelete = async () => {
+        if (!token || !activity) return;
+
+        Alert.alert(
+            'Delete Activity',
+            `Are you sure you want to delete "${activity.title}"? This cannot be undone.`,
+            [
+                { text: 'Cancel', style: 'cancel' },
+                {
+                    text: 'Delete',
+                    style: 'destructive',
+                    onPress: async () => {
+                        try {
+                            await deleteActivity(token, activityId);
+
+                            Toast.show({
+                                type: 'success',
+                                text1: 'Deleted',
+                                text2: 'Activity deleted successfully',
+                            });
+
+                            navigation.goBack();
+                        } catch (err: any) {
+                            Toast.show({
+                                type: 'error',
+                                text1: 'Delete Failed',
+                                text2: err.message || 'Could not delete activity',
+                            });
+                        }
+                    },
+                },
+            ]
+        );
+    };
+
+    if (!token) {
+        return (
+            <GlassScreen>
+                <View style={styles.centerMessage}>
+                    <Text style={styles.title}>Sign in required</Text>
+                    <Text style={styles.metaText}>
+                        Please log in to view activity details.
+                    </Text>
+                </View>
+            </GlassScreen>
+        );
+    }
+
+    if (loading) {
+        return (
+            <GlassScreen>
+                <View style={styles.centerMessage}>
+                    <ActivityIndicator size="large" color="#52d11f" />
+                    <Text style={styles.metaText}>Loading activity...</Text>
+                </View>
+            </GlassScreen>
+        );
+    }
+
+    if (error || !activity) {
+        return (
+            <GlassScreen>
+                <View style={styles.centerMessage}>
+                    <Text style={styles.title}>Error</Text>
+                    <Text style={styles.metaText}>{error || 'Activity not found'}</Text>
+                    <TouchableOpacity
+                        style={styles.retryButton}
+                        onPress={() => navigation.goBack()}>
+                        <Text style={styles.retryButtonText}>Go Back</Text>
+                    </TouchableOpacity>
+                </View>
+            </GlassScreen>
+        );
+    }
+
+    const materials = parseJsonField(activity.materials);
+    const steps = parseJsonField(activity.steps);
+    const outcomes = parseJsonField(activity.learning_outcomes);
+
+    return (
+        <GlassScreen>
+            <ScrollView contentContainerStyle={styles.scroll}>
+                {/* Header Card */}
+                <GlassCard style={styles.headerCard}>
+                    <Text style={styles.activityTitle}>{activity.title}</Text>
+                    <Text style={styles.metaText}>
+                        {activity.subject} • {activity.activity_type}
+                    </Text>
+                    <Text style={styles.duration}>⏱️ {activity.duration} minutes</Text>
+                </GlassCard>
+
+                {/* Action Buttons */}
+                <View style={styles.actionsRow}>
+                    <TouchableOpacity
+                        style={[styles.actionButton, styles.saveButton]}
+                        onPress={handleSavePDF}
+                        disabled={savingPDF}>
+                        {savingPDF ? (
+                            <ActivityIndicator size="small" color="#fff" />
+                        ) : (
+                            <Text style={styles.actionButtonText}>📄 Save PDF</Text>
+                        )}
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[styles.actionButton, styles.deleteButton]}
+                        onPress={handleDelete}>
+                        <Text style={styles.deleteButtonText}>🗑️ Delete</Text>
+                    </TouchableOpacity>
+                </View>
+
+                {/* Materials */}
+                {materials.length > 0 && (
+                    <GlassCard style={styles.sectionCard}>
+                        <Text style={styles.sectionTitle}>📦 Materials Needed</Text>
+                        {materials.map((material, index) => (
+                            <Text key={index} style={styles.listItem}>
+                                • {material}
+                            </Text>
+                        ))}
+                    </GlassCard>
+                )}
+
+                {/* Instructions */}
+                {steps.length > 0 && (
+                    <GlassCard style={styles.sectionCard}>
+                        <Text style={styles.sectionTitle}>📝 Instructions</Text>
+                        {steps.map((step, index) => (
+                            <View key={index} style={styles.stepContainer}>
+                                <Text style={styles.stepNumber}>Step {index + 1}</Text>
+                                <Text style={styles.stepText}>{step}</Text>
+                            </View>
+                        ))}
+                    </GlassCard>
+                )}
+
+                {/* Learning Outcomes */}
+                {outcomes.length > 0 && (
+                    <GlassCard style={styles.sectionCard}>
+                        <Text style={styles.sectionTitle}>🎯 Learning Outcomes</Text>
+                        {outcomes.map((outcome, index) => (
+                            <Text key={index} style={styles.listItem}>
+                                • {outcome}
+                            </Text>
+                        ))}
+                    </GlassCard>
+                )}
+            </ScrollView>
+        </GlassScreen>
+    );
+};
+
+const styles = StyleSheet.create({
+    scroll: {
+        paddingVertical: 16,
+        paddingHorizontal: 4,
+    },
+    centerMessage: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingHorizontal: 24,
+    },
+    title: {
+        fontSize: 22,
+        fontWeight: '700',
+        color: '#f9fafb',
+        marginBottom: 8,
+    },
+    metaText: {
+        fontSize: 14,
+        color: '#9ca3af',
+        marginTop: 4,
+    },
+    headerCard: {
+        marginBottom: 12,
+    },
+    activityTitle: {
+        fontSize: 24,
+        fontWeight: '800',
+        color: '#f9fafb',
+        marginBottom: 8,
+    },
+    duration: {
+        fontSize: 14,
+        color: '#52d153',
+        marginTop: 4,
+    },
+    actionsRow: {
+        flexDirection: 'row',
+        gap: 12,
+        marginBottom: 16,
+    },
+    actionButton: {
+        flex: 1,
+        paddingVertical: 12,
+        paddingHorizontal: 16,
+        borderRadius: 999,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    saveButton: {
+        backgroundColor: 'rgba(52,211,153,0.9)',
+    },
+    deleteButton: {
+        backgroundColor: 'transparent',
+        borderWidth: 1,
+        borderColor: 'rgba(239,68,68,0.6)',
+    },
+    actionButtonText: {
+        fontSize: 14,
+        fontWeight: '700',
+        color: '#022c22',
+    },
+    deleteButtonText: {
+        fontSize: 14,
+        fontWeight: '700',
+        color: '#fca5a5',
+    },
+    sectionCard: {
+        marginBottom: 12,
+    },
+    sectionTitle: {
+        fontSize: 18,
+        fontWeight: '700',
+        color: '#f9fafb',
+        marginBottom: 12,
+    },
+    listItem: {
+        fontSize: 14,
+        color: '#e5e7eb',
+        lineHeight: 22,
+        marginBottom: 6,
+    },
+    stepContainer: {
+        marginBottom: 12,
+    },
+    stepNumber: {
+        fontSize: 12,
+        fontWeight: '600',
+        color: '#52d153',
+        textTransform: 'uppercase',
+        marginBottom: 4,
+    },
+    stepText: {
+        fontSize: 14,
+        color: '#e5e7eb',
+        lineHeight: 22,
+    },
+    retryButton: {
+        marginTop: 16,
+        paddingVertical: 10,
+        paddingHorizontal: 24,
+        backgroundColor: 'rgba(52,211,153,0.9)',
+        borderRadius: 999,
+    },
+    retryButtonText: {
+        fontSize: 14,
+        fontWeight: '700',
+        color: '#022c22',
+    },
+});
+
+export default ActivityDetailScreen;

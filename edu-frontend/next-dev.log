@@ -1,0 +1,25 @@
+
+> edu-platform-frontend@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.33
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5.4s
+ ○ Compiling /teacher/deck-generator ...
+Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ✓ Compiled /teacher/deck-generator in 12.6s (978 modules)
+ GET /teacher/deck-generator 200 in 14228ms
+ ✓ Compiled in 1735ms (456 modules)
+ ✓ Compiled in 4.4s (951 modules)
+ ✓ Compiled in 1538ms (951 modules)
+ ✓ Compiled in 1092ms (951 modules)
+ ✓ Compiled in 720ms (447 modules)
+ ✓ Compiled in 1004ms (447 modules)
+ ✓ Compiled in 760ms (447 modules)
+ ✓ Compiled in 720ms (447 modules)

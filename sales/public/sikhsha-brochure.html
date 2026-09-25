@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sikhsha – Product Brochure 2025</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #fff; color: #0f172a; font-size: 14px; line-height: 1.6; }
+
+  /* ── PRINT ── */
+  @media print {
+    .no-print { display: none !important; }
+    body { font-size: 12px; }
+    .page { page-break-after: always; min-height: auto; }
+    .page:last-child { page-break-after: avoid; }
+  }
+
+  /* ── DOWNLOAD BAR ── */
+  .dl-bar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+    background: #0f172a; color: #fff;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 32px; gap: 16px;
+  }
+  .dl-bar span { font-size: 13px; opacity: .8; }
+  .dl-btn {
+    background: #22c55e; color: #fff; border: none; border-radius: 6px;
+    padding: 8px 20px; font-size: 13px; font-weight: 600; cursor: pointer;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .dl-btn:hover { background: #16a34a; }
+
+  /* ── LAYOUT ── */
+  .page {
+    max-width: 900px; margin: 0 auto;
+    padding: 72px 64px 60px;
+    min-height: 100vh;
+    position: relative;
+  }
+  @media (max-width: 600px) { .page { padding: 60px 24px 40px; } }
+
+  /* ── COVER ── */
+  .cover {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 60%, #0e7490 100%);
+    color: #fff; border-radius: 0;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .cover-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2);
+    border-radius: 20px; padding: 6px 14px; font-size: 12px; font-weight: 600;
+    letter-spacing: .04em; text-transform: uppercase;
+    margin-bottom: 40px; width: fit-content;
+  }
+  .cover h1 { font-size: 52px; font-weight: 800; line-height: 1.08; letter-spacing: -.02em; max-width: 680px; }
+  .cover h1 span { color: #38bdf8; }
+  .cover-sub { margin-top: 20px; font-size: 18px; color: rgba(255,255,255,.75); max-width: 560px; line-height: 1.6; }
+  .cover-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
+  .chip {
+    border: 1px solid rgba(255,255,255,.25); border-radius: 6px;
+    padding: 6px 14px; font-size: 12px; font-weight: 500; color: rgba(255,255,255,.85);
+  }
+  .cover-footer {
+    margin-top: 60px; padding-top: 28px;
+    border-top: 1px solid rgba(255,255,255,.18);
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+  .logo-mark { font-size: 24px; font-weight: 800; letter-spacing: -.01em; }
+  .logo-mark span { color: #38bdf8; }
+  .cover-footer small { font-size: 12px; color: rgba(255,255,255,.5); }
+
+  /* ── SECTION HEADER ── */
+  .sec-label {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+    color: #0369a1; margin-bottom: 12px;
+  }
+  .sec-label::before {
+    content: ''; display: block; width: 18px; height: 3px;
+    background: #0369a1; border-radius: 2px;
+  }
+  .sec-title {
+    font-size: 34px; font-weight: 800; letter-spacing: -.02em; line-height: 1.15;
+    color: #0f172a; max-width: 600px;
+  }
+  .sec-desc {
+    font-size: 15px; line-height: 1.7; color: #475569; margin-top: 14px; max-width: 600px;
+  }
+
+  /* ── DIVIDER ── */
+  .divider { height: 1px; background: #e2e8f0; margin: 40px 0; }
+
+  /* ── ERP MODULE GRID ── */
+  .module-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 32px; }
+  @media (max-width: 600px) { .module-grid { grid-template-columns: 1fr; } }
+  .mod-card {
+    border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px 20px;
+    background: #f8fafc;
+  }
+  .mod-icon {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: #0f172a; display: flex; align-items: center; justify-content: center;
+    font-size: 18px; margin-bottom: 14px;
+  }
+  .mod-title { font-size: 15px; font-weight: 700; color: #0f172a; margin-bottom: 6px; }
+  .mod-desc { font-size: 13px; color: #64748b; line-height: 1.6; }
+
+  /* ── AI SECTION ── */
+  .ai-bg {
+    background: linear-gradient(135deg, #0f172a 0%, #0c2340 100%);
+    border-radius: 16px; padding: 48px 44px; color: #fff; margin-top: 0;
+  }
+  @media (max-width: 600px) { .ai-bg { padding: 32px 24px; } }
+  .ai-bg .sec-label { color: #38bdf8; }
+  .ai-bg .sec-label::before { background: #38bdf8; }
+  .ai-bg .sec-title { color: #fff; }
+  .ai-bg .sec-desc { color: rgba(255,255,255,.65); }
+
+  .ai-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 32px; }
+  @media (max-width: 600px) { .ai-grid { grid-template-columns: 1fr; } }
+
+  /* ── STAR FEATURES ── */
+  .star-card {
+    border: 1px solid rgba(255,255,255,.15); border-radius: 12px;
+    padding: 20px 18px; background: rgba(255,255,255,.05);
+    position: relative; overflow: hidden;
+  }
+  .star-card.highlight {
+    border-color: #38bdf8; background: rgba(56,189,248,.08);
+  }
+  .star-card .badge {
+    position: absolute; top: 12px; right: 12px;
+    background: #38bdf8; color: #0f172a;
+    font-size: 9px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase;
+    border-radius: 4px; padding: 2px 7px;
+  }
+  .star-card .icon { font-size: 24px; margin-bottom: 10px; }
+  .star-card h4 { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+  .star-card p { font-size: 12px; color: rgba(255,255,255,.6); line-height: 1.6; }
+
+  /* ── NORMAL AI CARD ── */
+  .ai-plain {
+    border: 1px solid rgba(255,255,255,.1); border-radius: 12px;
+    padding: 18px; background: rgba(255,255,255,.04);
+    display: flex; align-items: flex-start; gap: 12px;
+  }
+  .ai-check { color: #22c55e; font-size: 16px; flex-shrink: 0; margin-top: 2px; }
+  .ai-plain p { font-size: 13px; color: rgba(255,255,255,.75); line-height: 1.6; }
+
+  /* ── ROLES ── */
+  .roles-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 28px; }
+  @media (max-width: 600px) { .roles-grid { grid-template-columns: 1fr 1fr; } }
+  .role-card {
+    text-align: center; border: 1px solid #e2e8f0; border-radius: 12px;
+    padding: 22px 12px; background: #f8fafc;
+  }
+  .role-icon { font-size: 28px; margin-bottom: 10px; }
+  .role-name { font-size: 13px; font-weight: 700; color: #0f172a; }
+  .role-desc { font-size: 11px; color: #64748b; margin-top: 4px; line-height: 1.4; }
+
+  /* ── STATS ── */
+  .stats-row { display: flex; gap: 0; margin-top: 40px; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; }
+  .stat-box { flex: 1; padding: 24px 20px; text-align: center; border-right: 1px solid #e2e8f0; }
+  .stat-box:last-child { border-right: none; }
+  .stat-val { font-size: 36px; font-weight: 800; color: #0f172a; letter-spacing: -.02em; }
+  .stat-lbl { font-size: 12px; color: #64748b; margin-top: 4px; line-height: 1.4; }
+  @media (max-width: 600px) {
+    .stats-row { flex-direction: column; }
+    .stat-box { border-right: none; border-bottom: 1px solid #e2e8f0; }
+    .stat-box:last-child { border-bottom: none; }
+  }
+
+  .replace-grid { margin-top: 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 600px) { .replace-grid { grid-template-columns: 1fr; } }
+
+  /* ── CTA / FOOTER PAGE ── */
+  .cta-page {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: #fff;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center;
+  }
+  .cta-page h2 { font-size: 42px; font-weight: 800; letter-spacing: -.02em; max-width: 520px; line-height: 1.1; }
+  .cta-page h2 span { color: #38bdf8; }
+  .cta-page p { font-size: 16px; color: rgba(255,255,255,.65); margin-top: 16px; max-width: 440px; line-height: 1.7; }
+  .contact-box {
+    margin-top: 48px; border: 1px solid rgba(255,255,255,.18);
+    border-radius: 16px; padding: 36px 44px; background: rgba(255,255,255,.05);
+    width: 100%; max-width: 480px;
+  }
+  .contact-box h3 { font-size: 16px; font-weight: 700; margin-bottom: 20px; }
+  .contact-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; font-size: 14px; }
+  .contact-row:last-child { margin-bottom: 0; }
+  .c-icon { font-size: 18px; }
+  .contact-row strong { color: #fff; }
+  .contact-row span { color: rgba(255,255,255,.6); }
+
+  /* ── PAGE NUMBER ── */
+  .pg-num {
+    position: absolute; bottom: 24px; right: 40px;
+    font-size: 11px; color: #64748b; font-weight: 500;
+  }
+  .pg-logo {
+    position: absolute; bottom: 24px; left: 40px;
+    font-size: 13px; font-weight: 700; color: #64748b;
+  }
+</style>
+</head>
+<body>
+
+<!-- Download bar (hidden when printing) -->
+<div class="dl-bar no-print">
+  <span>Sikhsha Product Brochure 2025 — Print or save as PDF using Ctrl+P</span>
+  <button class="dl-btn" onclick="window.print()">
+    ⬇ Download / Print PDF
+  </button>
+</div>
+
+<!-- ═══════════════════════════════════
+     PAGE 1 — COVER
+════════════════════════════════════ -->
+<div class="page cover" style="padding-top: 80px;">
+  <div>
+    <div class="cover-badge">📘 Product Brochure 2025</div>
+    <h1>One platform.<br/>ERP + AI for <span>school teams.</span></h1>
+    <p class="cover-sub">
+      Sikhsha combines a full school management ERP with AI-powered classroom tools — question generators, smart quizzes, instant teaching decks — all in one connected system.
+    </p>
+    <div class="cover-chips">
+      <span class="chip">Student ERP</span>
+      <span class="chip">Fee Management</span>
+      <span class="chip">Attendance</span>
+      <span class="chip">AI Question Generator ✦</span>
+      <span class="chip">Smart Quiz Engine ✦</span>
+      <span class="chip">AI Deck Builder ✦</span>
+      <span class="chip">Parent Communication</span>
+      <span class="chip">Analytics</span>
+    </div>
+  </div>
+  <div class="cover-footer">
+    <div class="logo-mark">Sikhsha<span>.</span></div>
+    <small>School ERP · AI Classroom Tools · Built for Indian Schools</small>
+  </div>
+  <div class="pg-num">1 / 5</div>
+</div>
+
+<!-- ═══════════════════════════════════
+     PAGE 2 — STUDENT ERP
+════════════════════════════════════ -->
+<div class="page" style="padding-top: 100px;">
+  <div class="sec-label">Part 1 — School ERP</div>
+  <h2 class="sec-title">Everything a school office runs on, finally in one place.</h2>
+  <p class="sec-desc">
+    Sikhsha ERP handles the daily grind of school administration — admissions, attendance, fees, communication — so principals and admins spend less time on paperwork and more time on outcomes.
+  </p>
+
+  <div class="module-grid">
+    <div class="mod-card">
+      <div class="mod-icon">👤</div>
+      <div class="mod-title">Student Records & Admissions</div>
+      <p class="mod-desc">Complete student profiles — guardian info, documents, roll numbers, class history, and promotions — in one searchable system. Never lose a record again.</p>
+    </div>
+    <div class="mod-card">
+      <div class="mod-icon">📅</div>
+      <div class="mod-title">Attendance Management</div>
+      <p class="mod-desc">Mark daily, subject-wise, or class-wise attendance from supported workspaces. Generate clean summaries, spot patterns, and export reports quickly.</p>
+    </div>
+    <div class="mod-card">
+      <div class="mod-icon">💳</div>
+      <div class="mod-title">Fee Collection & Receipts</div>
+      <p class="mod-desc">Generate invoices, collect payments online via Razorpay or offline, issue PDF receipts, track refunds, and identify defaulters before they pile up.</p>
+    </div>
+    <div class="mod-card">
+      <div class="mod-icon">🔔</div>
+      <div class="mod-title">Parent Communication</div>
+      <p class="mod-desc">Send announcements, absence notices, assignment updates, and learning resources directly to parents — all tied to the student's operational record.</p>
+    </div>
+    <div class="mod-card">
+      <div class="mod-icon">📊</div>
+      <div class="mod-title">Management Dashboard</div>
+      <p class="mod-desc">Live view of fee collections, attendance rates, open dues, and activity logs. School owners get a command center instead of a stack of printed reports.</p>
+    </div>
+    <div class="mod-card">
+      <div class="mod-icon">🛡️</div>
+      <div class="mod-title">Role-Based Access</div>
+      <p class="mod-desc">Separate, permission-controlled workspaces for Admin, Teacher, Student, and Parent. Everyone sees exactly what they need — nothing more.</p>
+    </div>
+  </div>
+
+  <div class="stats-row" style="margin-top: 32px;">
+    <div class="stat-box"><div class="stat-val">4</div><div class="stat-lbl">Role workspaces</div></div>
+    <div class="stat-box"><div class="stat-val">Core</div><div class="stat-lbl">ERP & AI workflows</div></div>
+    <div class="stat-box"><div class="stat-val">1</div><div class="stat-lbl">Connected system</div></div>
+  </div>
+
+  <div class="pg-logo">Sikhsha.</div>
+  <div class="pg-num">2 / 5</div>
+</div>
+
+<!-- ═══════════════════════════════════
+     PAGE 3 — AI FEATURES
+════════════════════════════════════ -->
+<div class="page" style="padding-top: 100px;">
+  <div class="ai-bg">
+    <div class="sec-label">Part 2 — AI Classroom Tools</div>
+    <h2 class="sec-title" style="max-width: 100%;">AI that helps teachers teach and students learn — faster.</h2>
+    <p class="sec-desc">
+      Beyond the ERP, Sikhsha EDU brings AI into the classroom workflow. Teachers prepare better, students understand faster, and management gets real learning signals.
+    </p>
+
+    <div class="ai-grid" style="margin-top: 36px;">
+      <!-- STAR: Question Generator -->
+      <div class="star-card highlight">
+        <span class="badge">⭐ Key Feature</span>
+        <div class="icon">❓</div>
+        <h4>AI Question Generator</h4>
+        <p>
+          Generate topic-specific questions quickly. Choose subject, grade, chapter, difficulty level, and question type (MCQ, short answer, descriptive) to support teacher preparation.
+        </p>
+      </div>
+
+      <!-- STAR: Quiz Engine -->
+      <div class="star-card highlight">
+        <span class="badge">⭐ Key Feature</span>
+        <div class="icon">📝</div>
+        <h4>Smart Quiz Engine</h4>
+        <p>
+          Assign auto-generated quizzes to students with one click. Students attempt quizzes on the app, get instant scores and feedback, and teachers see who needs help — without manual checking.
+        </p>
+      </div>
+
+      <!-- STAR: Deck Generation -->
+      <div class="star-card highlight" style="grid-column: span 1;">
+        <span class="badge">⭐ Key Feature</span>
+        <div class="icon">🖼️</div>
+        <h4>AI Teaching Deck Builder</h4>
+        <p>
+          Input topic, grade, subject, and slide count. Create a structured teaching deck with content, activities, and assessments so teachers can focus more on delivery.
+        </p>
+      </div>
+
+      <!-- Lesson Plans -->
+      <div class="ai-plain" style="flex-direction: column; justify-content: flex-start; gap: 10px; padding: 20px 18px; border: 1px solid rgba(255,255,255,.15); border-radius: 12px; background: rgba(255,255,255,.04);">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 20px;">📋</span>
+          <strong style="color: #fff; font-size: 14px; font-weight: 700;">AI Lesson Planner</strong>
+        </div>
+        <p style="font-size: 12px; color: rgba(255,255,255,.6); line-height: 1.6;">Complete lesson plans with objectives, teaching sequence, formative assessments, and resource links — generated in one prompt.</p>
+      </div>
+    </div>
+
+    <div style="margin-top: 24px; display: flex; flex-direction: column; gap: 12px;">
+      <div class="ai-plain">
+        <span class="ai-check">✓</span>
+        <p>Student <strong style="color:#fff">Doubt Solver</strong> with follow-up questions, weak-area signals, and similar problem suggestions</p>
+      </div>
+      <div class="ai-plain">
+        <span class="ai-check">✓</span>
+        <p><strong style="color:#fff">Classroom Activity Generator</strong> with materials, step-by-step instructions, and learning outcomes</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pg-logo">Sikhsha.</div>
+  <div class="pg-num">3 / 5</div>
+</div>
+
+<!-- ═══════════════════════════════════
+     PAGE 4 — WHO IT'S FOR + WHY BUY
+════════════════════════════════════ -->
+<div class="page" style="padding-top: 100px;">
+  <div class="sec-label">Who It's Built For</div>
+  <h2 class="sec-title">Four roles, one platform.</h2>
+
+  <div class="roles-grid">
+    <div class="role-card">
+      <div class="role-icon">🏫</div>
+      <div class="role-name">School Owner / Admin</div>
+      <div class="role-desc">Real-time dashboard of fees, collections, attendance, and operations</div>
+    </div>
+    <div class="role-card">
+      <div class="role-icon">👩‍🏫</div>
+      <div class="role-name">Teacher</div>
+      <div class="role-desc">AI decks, quiz tools, question banks, lesson plans — all in the teacher app</div>
+    </div>
+    <div class="role-card">
+      <div class="role-icon">🎓</div>
+      <div class="role-name">Student</div>
+      <div class="role-desc">Quizzes, AI doubt solver, results, assignments on mobile</div>
+    </div>
+    <div class="role-card">
+      <div class="role-icon">👪</div>
+      <div class="role-name">Parent</div>
+      <div class="role-desc">Attendance alerts, fee notices, announcements, and school communication</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="sec-label">Why Schools Choose Sikhsha</div>
+  <h2 class="sec-title" style="font-size: 26px;">Replace five disconnected tools with one.</h2>
+
+  <div class="replace-grid">
+    <div style="display: flex; gap: 12px; align-items: flex-start; padding: 16px; border: 1px solid #e2e8f0; border-radius: 10px; background: #f8fafc;">
+      <span style="font-size: 18px; flex-shrink: 0;">❌</span>
+      <div>
+        <strong style="font-size: 13px; color: #0f172a; display: block; margin-bottom: 4px;">Before Sikhsha</strong>
+        <p style="font-size: 12px; color: #64748b; line-height: 1.6;">Fee registers in Excel, attendance on paper, WhatsApp chains for notices, separate AI tools that don't connect to student data.</p>
+      </div>
+    </div>
+    <div style="display: flex; gap: 12px; align-items: flex-start; padding: 16px; border: 1px solid #bbf7d0; border-radius: 10px; background: #f0fdf4;">
+      <span style="font-size: 18px; flex-shrink: 0;">✅</span>
+      <div>
+        <strong style="font-size: 13px; color: #0f172a; display: block; margin-bottom: 4px;">After Sikhsha</strong>
+        <p style="font-size: 12px; color: #166534; line-height: 1.6;">One login for collections, attendance, parent alerts, AI-generated quizzes, decks, and lesson plans — connected to every student record.</p>
+      </div>
+    </div>
+    <div style="display: flex; gap: 12px; align-items: flex-start; padding: 16px; border: 1px solid #e2e8f0; border-radius: 10px; background: #f8fafc;">
+      <span style="font-size: 18px; flex-shrink: 0;">⏱️</span>
+      <div>
+        <strong style="font-size: 13px; color: #0f172a; display: block; margin-bottom: 4px;">Teacher Time Saved</strong>
+        <p style="font-size: 12px; color: #64748b; line-height: 1.6;">AI Question Generator and Deck Builder reduce repetitive preparation work, with generated content tied to the school account.</p>
+      </div>
+    </div>
+    <div style="display: flex; gap: 12px; align-items: flex-start; padding: 16px; border: 1px solid #e2e8f0; border-radius: 10px; background: #f8fafc;">
+      <span style="font-size: 18px; flex-shrink: 0;">💰</span>
+      <div>
+        <strong style="font-size: 13px; color: #0f172a; display: block; margin-bottom: 4px;">Faster Fee Recovery</strong>
+        <p style="font-size: 12px; color: #64748b; line-height: 1.6;">Online payments via Razorpay, automated due reminders, and defaulter tracking give school owners a clear financial picture every day.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pg-logo">Sikhsha.</div>
+  <div class="pg-num">4 / 5</div>
+</div>
+
+<!-- ═══════════════════════════════════
+     PAGE 5 — CTA
+════════════════════════════════════ -->
+<div class="page cta-page" style="padding-top: 80px; min-height: 100vh;">
+  <h2>Ready to see <span>Sikhsha</span> in action?</h2>
+  <p>Book a free walkthrough. We'll show you fee recovery, attendance, AI quizzes, deck generation, and student doubt support in one live demo.</p>
+
+  <div class="contact-box">
+    <h3>Get in touch</h3>
+    <div class="contact-row">
+      <span class="c-icon">🌐</span>
+      <span><strong>Website: </strong><span>sikhsha.in</span></span>
+    </div>
+    <div class="contact-row">
+      <span class="c-icon">📧</span>
+      <span><strong>Email: </strong><span>hello@sikhsha.in</span></span>
+    </div>
+    <div class="contact-row">
+      <span class="c-icon">📞</span>
+      <span><strong>Phone: </strong><span>+91 98765 43210</span></span>
+    </div>
+    <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.12);">
+      <p style="font-size: 12px; color: rgba(255,255,255,.45); line-height: 1.6;">
+        Sikhsha is built for CBSE, ICSE, and state board schools across India. Pricing is per-school, per-year — no per-seat surprises.
+      </p>
+    </div>
+  </div>
+
+  <div style="margin-top: 48px; font-size: 12px; color: rgba(255,255,255,.3);">
+    © 2025 Sikhsha · School ERP + AI Classroom Platform
+  </div>
+  <div class="pg-num" style="color: rgba(255,255,255,.72);">5 / 5</div>
+</div>
+
+</body>
+</html>
